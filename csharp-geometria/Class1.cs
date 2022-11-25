@@ -6,17 +6,21 @@ using System.Threading.Tasks;
 
 namespace csharp_geometria
 {
-    public class Rettangolo
+    
+    
+}
+
+public class Rettangolo
+{
+    public int baseRettangolo;
+    public int altezzaRettangolo;
+    public int calcolaPerimetro
     {
-        public int baseRettangolo;
-        public int altezzaRettangolo;
-        public int calcolaPerimetro
-        {
-            get { return (baseRettangolo + altezzaRettangolo) + 2; }
-        }
-        public int calcoloArea
-        {
-            get { return baseRettangolo * altezzaRettangolo; }
-        }
+        get { return (baseRettangolo + altezzaRettangolo) + 2; }
+
+    }
+    public int calcoloArea
+    {
+        get { return baseRettangolo * altezzaRettangolo; }
     }
 }
